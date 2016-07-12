@@ -1,48 +1,73 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
      <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <!-- <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print"> -->
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/main.css">
 
     <title>Rainiecao.GitHub.com</title>
-  </head>
+</head>
 
-  <body>
-    <div class="bg_wrap">
-        <img src="./images/pic03.jpg" alt="" class="bg">
-        <img src="./images/pic04.jpg" alt="" class="bg">
-        <img src="./images/pic05.jpg" alt="" class="bg">
-        <img src="./images/pic01.jpg" alt="" class="bg">
-    </div>
-    
-    <div class="mask"></div>
-
-    <nav class="nav_top">
-      <!-- <a href="" class="logo">(≖ ‿ ≖)✧</a> -->
-        <ul>
-            <li><h2>HOME</h2></li>
-            <li><h2>DOCS</h2></li>
-            <li><h2>LIFE</h2></li>
-            <li><h2>ABOUT</h2></li>
-        </ul>
-    </nav>
-
-    <div class="text_vertical_center">
-        <div class="border">
-            <div class="border_top_left"></div>
-            <div class="border_top_right"></div>
-            <div class="border_bottom_left"></div>
-            <div class="border_bottom_right"></div>
+<body>
+    <div class="sidebar">
+        <div class="self_info">
+            <img src="./images/avatar02.jpg" alt="" class="avatar">
+            <p class="name">RAINIE CAO</p>
+            <p class="job">Web font-end developer</p>
+            <p class="address"><i class="fa fa-map-marker"></i>&nbsp Shanghai, CHN</p>
         </div>
-        <h1>Lost Stars</h1>
-        <h2>Just a boy caught up in dreams and fantastics</h2>
+
+        <div class="navbar">
+            <ul>
+                <a href="#welcome" class="nav_tab on">
+                    <li><i class="fa fa-globe fa-lg"></i>&nbsp Welcome</li>
+                </a>
+                <a href="#docs" class="nav_tab">
+                    <li><i class="fa fa-paperclip fa-lg"></i>&nbsp Docs</li>
+                </a>
+                <a href="#life" class="nav_tab">
+                    <li><i class="fa fa-heartbeat fa-lg"></i>&nbsp Life</li>
+                </a>
+                <a href="#about" class="nav_tab">
+                    <li><i class="fa fa-pencil fa-lg"></i>&nbsp About</li> 
+                </a>
+            </ul>
+        </div>
+
+        <div class="social_icons">
+            <a href="https://github.com/rainieCao233" class="social_icon" target="_blank">
+                <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+            </a>
+            <a href="http://weibo.com/cyclan" class="social_icon" target="_blank">
+                <i class="fa fa-weibo fa-2x" aria-hidden="true"></i>
+            </a>
+        </div>
     </div>
-  </body>
+    <div class="container">
+        <div class="box welcome_part" id="welcome">
+            <div class="mask"></div>
+        </div>
+
+        <div class="box docs_part" id="docs">
+
+        </div>
+
+        <div class="box life_part" id="life">
+            
+        </div>
+
+        <div class="box about_part" id="about">
+            
+        </div>
+    </div>
+</body>
+<script src="./javascripts/jquery-1.8.3.min.js"></script> 
+<script src="./javascripts/main.js"></script>
 </html>

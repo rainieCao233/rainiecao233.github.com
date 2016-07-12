@@ -1,3 +1,11 @@
+@font-face { 
+  font-family: lato-light; 
+  src: url('../fonts/EsvMC5un3kjyUhB9ZEPPwg.woff2'); 
+}
+@font-face { 
+  font-family: lato-bold; 
+  src: url('../fonts/1YwB1sO8YE1Lyjf12WNiUA.woff2'); 
+}
 html, body, div, span, applet, object, iframe, h1, h2, h3, 
 h4, h5, h6, p, blockquote, pre, a, abbr, acronym, 
 address, big, cite, code, del, dfn, em, font, img, ins, 
@@ -18,7 +26,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     outline: 0;
 } 
 a, a:link, a:visited, a:hover, a:active{
-    text-decoration:none
+    text-decoration:none;
 } 
 table {
     border-collapse: separate;
