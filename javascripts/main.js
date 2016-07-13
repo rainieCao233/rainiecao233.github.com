@@ -1,3 +1,4 @@
+
 ;(function($){ 
 
     $("a.nav_tab").click(function(e) {
@@ -20,6 +21,6 @@
         }
     });
 
-    // todoï¼šå½“scrollå‘ç”Ÿæ”¹å˜æ—¶ï¼Œç›‘å¬tabçš„onçŠ¶æ€è‡ªåŠ¨åˆ‡æ¢
+    // todo£ºµ±scroll·¢Éú¸Ä±äÊ±£¬¼àÌıtabµÄon×´Ì¬×Ô¶¯ÇĞ»»
 
 })(jQuery) 
