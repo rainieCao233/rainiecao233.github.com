@@ -88,7 +88,6 @@ a.social_icon:hover{
 	min-height: 700px;
 	z-index: -99;
 	position: relative;
-	margin-top: 350px;
 }
 /*#container>div:target{
 	margin-top: 
@@ -115,10 +114,8 @@ a.social_icon:hover{
 	z-index: -9;
 	width: 100%;
 	height: 100%;
-}
 	background: rgba(109, 85, 115, 0.3);
 	position: absolute;
-
 	top: 0;
 	left: 0;
 }
