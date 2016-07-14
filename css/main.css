@@ -1,3 +1,67 @@
+/* custumize_style */
+.custumize_style{
+	width: 200px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 9;
+	background: rgba(0,0,0,.5);
+	margin-top: 20px;
+}
+a.switcher{
+	display: inline-block;
+	padding: 10px 12px;
+	background: rgba(0,0,0,.5);
+	color: rgba(255, 255, 255, 0.8);
+	position: absolute;
+	right: -51px;
+	top: 20px;
+}
+.main_part{
+	padding: 10px 15px;
+}
+.main_part h2{
+	line-height: 35px;
+	font-size: 22px;
+	color: rgba(255, 255, 255, 0.8);
+	font-family: 'lato-bold';
+	margin-bottom: 10px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+.theme{
+
+}
+.theme h3{
+	color: rgba(255, 255, 255, 0.8);
+	font-family: 'lato-bold';
+	font-size: 16px;
+	/*line-height: 25px;*/
+	padding-bottom: 10px;
+}
+a.theme_color{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border: 2px solid rgba(255, 255, 255, 0);
+}
+#purple{
+	background: rgb(109, 85, 115);
+}
+#green{
+	background: rgb(89, 117, 89);
+}
+#red{
+	background: rgb(134, 98, 98);
+}
+#blue{
+	background: rgb(85, 115, 115);
+}
+#gray{
+	background: rgb(37, 37, 37);
+}
+a.theme_color.active{
+	border: 2px solid rgba(255, 255, 255, 0.5);
+}
 
 /* sidebar */
 .sidebar{
@@ -89,22 +153,6 @@ a.social_icon:hover{
 	z-index: -99;
 	position: relative;
 }
-/*#container>div:target{
-	margin-top: 
-}
-#container>div:not(:target){
-  
-}*/
-/*.docs_part:target{
-	margin-top: -100%;
-}
-.life_part:target{
-	margin-top: -200%;
-}
-.about_part:target{
-	margin-top: -300%;
-}*/
-
 
 .welcome_part{
 	background: url(../images/pic01.jpg) no-repeat;
