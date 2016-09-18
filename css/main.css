@@ -179,6 +179,19 @@ a.social_icon:hover{
 	background: #fff;
 }
 
+/* doc part */
+.a_list{
+	padding: 40px;
+	color: #000;
+	box-sizing:border-box;
+}
+.a_list li{
+	width: 31%;
+	float: left;
+	margin: 0 5px;
+	color: rgba(0, 0, 0, 0.7);
+	background: rgb(109, 85, 115);
+}
 
 /*@media (min-width: 1201px) {
 
@@ -199,4 +212,4 @@ a.social_icon:hover{
 }
 @media (max-width: 480px) {
 
-}*/
+}
