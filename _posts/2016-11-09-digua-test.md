@@ -1,9 +1,11 @@
 ---
-title: Emoji Test
-tags:
+layout: post
+title: 土豆土豆我是地瓜
+tags: 
+- MEMO
 ---
 
-This is an emoji test. :smile:
+地瓜test :smile:
 
 :bowtie::smile::laughing::blush::smiley::relaxed::smirk:
 :heart_eyes::kissing_heart::kissing_closed_eyes::flushed::relieved::satisfied::grin:
