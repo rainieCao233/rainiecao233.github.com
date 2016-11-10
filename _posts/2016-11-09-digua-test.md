@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 土豆土豆我是地瓜
+category:
 tags: 
 - MEMO
 ---
