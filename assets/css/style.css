@@ -340,7 +340,7 @@ body >header {
 	width: 100%;
 	-webkit-box-shadow: 2px 4px 5px rgba(3,3,3,0.2);
 	box-shadow: 2px 4px 5px rgba(3,3,3,0.2);
-	background: url("../img/bg.jpg") center center;
+	background: url("../img/bg.jpg");
 	color: #fff;
 	padding: 1em 0 .8em;
 }
@@ -357,7 +357,7 @@ body >header >div {
 	margin: 0 auto;
 	position: relative;
 	overflow: hidden;
-	backbground: rgba(255, 255, 255, 0.1);
+	background: rgba(255, 255, 255, 0.1);
 }
 
 @media only screen and (min-width:1024px) {
