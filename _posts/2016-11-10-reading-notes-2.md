@@ -206,15 +206,11 @@ o--; // 值变成数值-2
  -  非（NOT）
 
     ```
-//执行按位非的结果就是返回数值的反码
-
-var num1 = 25; // 二进制00000000000000000000000000011001
-
-var num2 = ~num1; // 二进制11111111111111111111111111100110
-
-alert(num2); // -26
-
-//按位非操作的本质：操作数的负值减1。
+    //执行按位非的结果就是返回数值的反码
+    var num1 = 25; // 二进制00000000000000000000000000011001
+    var num2 = ~num1; // 二进制11111111111111111111111111100110
+    alert(num2); // -26
+    //按位非操作的本质：操作数的负值减1。
     ```
 
  - 与（AND）
@@ -497,16 +493,16 @@ alert(arguments[0] + num2);
 //ECMAScript 中的所有参数传递的都是值，不可能通过引用传递参数。
     ```
 
- > ECMAScript 函数不能像传统意义上那样实现重载，如果在ECMAScript 中定义了两个名字相同的函数，则该名字只属于后定义的函数
+    > ECMAScript 函数不能像传统意义上那样实现重载，如果在ECMAScript 中定义了两个名字相同的函数，则该名字只属于后定义的函数
 
 
     ```
-function addSomeNumber(num){
-return num + 100;
-}
-function addSomeNumber(num) {
-return num + 200;
-}
-var result = addSomeNumber(100); //300
-//通过检查传入函数中参数的类型和数量并作出不同的反应，可以模仿方法的重载。
+    function addSomeNumber(num){
+    return num + 100;
+    }
+    function addSomeNumber(num) {
+    return num + 200;
+    }
+    var result = addSomeNumber(100); //300
+    //通过检查传入函数中参数的类型和数量并作出不同的反应，可以模仿方法的重载。
     ```

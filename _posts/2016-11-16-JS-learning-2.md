@@ -110,6 +110,7 @@ D:/NodeJS/imooc/beginning>node server.js
 
     ![escape.png](http://upload-images.jianshu.io/upload_images/1801528-4a61195785a32f0f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+
 - HTTP
  - 概念
     
