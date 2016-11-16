@@ -6,8 +6,6 @@ tags:
 - professionalJS
 ---
 
-### 在HTML中使用Script
-
 
 #### <script>元素
 
