@@ -1,9 +1,9 @@
 ---
 layout: post
 title: JS高级程序设计(二)
-category: 读书笔记
+category: ReadingNotes
 tags: 
-- JS高程
+- professionalJS
 ---
 
 ### 基本概念
@@ -45,14 +45,14 @@ function doSomething(){
 - undefined类型
 > 无论在什么情况下都没有必要把一个变量的值显式地设置为undefined
 
-```
-var message; 
-// var age
-alert(message); // "undefined"
-alert(age); // 产生错误
-alert(typeof message); // "undefined"
-alert(typeof age); // "undefined"
-```
+  ```
+  var message; 
+  // var age
+  alert(message); // "undefined"
+  alert(age); // 产生错误
+  alert(typeof message); // "undefined"
+  alert(typeof age); // "undefined"
+  ```
 
 - Null类型
 > 从逻辑角度来看，null 值表示一个空对象指针，而这也正是使用typeof 操作符检测null 值时会返回"object"的原因
@@ -65,6 +65,7 @@ alert(null === undefined); //false
 ```
 
 - Boolean类型
+
 > 两个字面值：true 和false，True 和False（以及其他的混合大小写形式）都不是Boolean 值，只是标识符。
 
 数据类型 | 转换为true的值 | 转换为false的值
@@ -203,52 +204,69 @@ o--; // 值变成数值-2
 > 负数以二进制码存储，使用的格式是二进制补码，先求其绝对值的二进制码，再求二进制反码，最后将得到的二进制反码加1。
 
  -  非（NOT）
+
     ```
 //执行按位非的结果就是返回数值的反码
+
 var num1 = 25; // 二进制00000000000000000000000000011001
+
 var num2 = ~num1; // 二进制11111111111111111111111111100110
+
 alert(num2); // -26
+
 //按位非操作的本质：操作数的负值减1。
     ```
+
  - 与（AND）
+
     ```
 var result = 25 & 3;
 alert(result); //1
     ```
 
  - 或（OR）
+
     ```
 var result = 25 | 3;
 alert(result); //27
     ```
 
  - 异或（XOR）
+
     ```
 var result = 25 ^ 3;
 alert(result); //26
     ```
 
  - 左移
+
     ```
 var oldValue = 2; // 等于二进制的10
 var newValue = oldValue << 5; // 等于二进制的1000000，十进制的64
     ```
 
  - 有符号的右移
+
     ```
 爸爸开心了再研究
     ```
  - 无符号右移
+
     ```
 爸爸开心了再研究
     ```
 
 - 布尔操作符
  - 非（!）
+
  > 模拟Boolean()转型函数的行为再取反
+
  - 与（&&）
+
 ![and_rule.png](http://upload-images.jianshu.io/upload_images/1801528-533c088c29c9eb91.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
  - 或（||）
+
 ![or_rule.png](http://upload-images.jianshu.io/upload_images/1801528-996dbdf4eb4f62e2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 - 乘性操作符
@@ -284,6 +302,7 @@ a % Infinity = a;
 
 - 加性操作符
  - 加
+
     ```
 NaN + a = NaN;
 Infinity + Infinity = Infinity;
@@ -294,6 +313,7 @@ Infinity - Infinity = NaN;
     ```
 
  - 减法
+
      ```
 NaN - a = NaN;
 Infinity - Infinity = NaN;
@@ -478,6 +498,7 @@ alert(arguments[0] + num2);
     ```
 
  > ECMAScript 函数不能像传统意义上那样实现重载，如果在ECMAScript 中定义了两个名字相同的函数，则该名字只属于后定义的函数
+
 
     ```
 function addSomeNumber(num){

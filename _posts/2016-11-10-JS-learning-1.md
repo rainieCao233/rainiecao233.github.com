@@ -54,34 +54,43 @@ new Vue({
 
 - 模板指令
  - 数据渲染：v-text \ v-html \ ({})
-```
-<p>({ a })</p>
-<p v-text="a"></p>
-<p v-html="a"></p>
-```
+
+	```
+	<p>({ a })</p>
+	<p v-text="a"></p>
+	<p v-html="a"></p>
+	```
+
  - 控制模块隐藏：v-if \ v-show
-```
-<p v-if="a"></p>
-<p v-show="a"></p>
-//v-if的值若为false则不对DOM进行渲染，而v-show是通过display进行控制显示与隐藏
-```
+
+	```
+	<p v-if="a"></p>
+	<p v-show="a"></p>
+	//v-if的值若为false则不对DOM进行渲染，而v-show是通过display进行控制显示与隐藏
+	```
+
  - 渲染循环列表：v-for
-```
-<ul>
-    <li v-for="item in items">
-        <p v-text="item.label"></p>
-    </li>
-</ul>
-```
+
+	```
+	<ul>
+	    <li v-for="item in items">
+	        <p v-text="item.label"></p>
+	    </li>
+	</ul>
+	```
+
  - 事件绑定：v-on
-```
-<button v-on:click="doSomething"></button>
-<button @click="doSomething"></button>
-```
+
+	```
+	<button v-on:click="doSomething"></button>
+	<button @click="doSomething"></button>
+	```
+
  - 属性绑定：v-bind
-```
-<img v-bind:src="imageSrc">
-<div :class="{red: isred}"></div>
-<div :class="[classA, classB]"></div>
-<div :class="[classA, {classB: isB, classC: isC}]"></div
-```
+ 
+	```
+	<img v-bind:src="imageSrc">
+	<div :class="{red: isred}"></div>
+	<div :class="[classA, classB]"></div>
+	<div :class="[classA, {classB: isB, classC: isC}]"></div
+	```
