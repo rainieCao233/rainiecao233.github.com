@@ -7,7 +7,7 @@ tags:
 ---
 
 
-#### <script>元素
+### script元素
 
 	- 六个属性：
 	 - async：立即下载脚本
@@ -19,7 +19,7 @@ tags:
 
 	> 现代Web 应用程序一般都把全部JavaScript 引用放在<body>元素中页面内容的后面，或者使用defer属性，H5中规定按照顺序延迟，标记为async 的脚本并不保证按照指定它们的先后顺序执行
 
-#### 文档模式
+### 文档模式
 
 	> 混杂模式（quirks mode）和标准模式（standards mode）
 
@@ -35,5 +35,5 @@ tags:
 	<!DOCTYPE html>
 	```
 
-#### <noscript>元素
+### noscript元素
 	> 当浏览器不支持JavaScript 时使用<noscript>元素让页面平稳地退化
