@@ -343,6 +343,9 @@ body >header {
 	background: url("../img/bg.jpg");
 	color: #fff;
 	padding: 1em 0 .8em;
+	position: fixed;
+	height: 100%;
+	z-index: -1;
 }
 
 @media only screen and (min-width:1024px) {
@@ -568,7 +571,7 @@ header nav ul li a:hover {
 }/* index layout */
 #container {
 	width: 95%;
-	margin: 0 auto;
+	margin: 80px auto 0;
 	overflow: hidden;
 }
 
