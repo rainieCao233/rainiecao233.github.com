@@ -340,32 +340,33 @@ body >header {
 	width: 100%;
 	-webkit-box-shadow: 2px 4px 5px rgba(3,3,3,0.2);
 	box-shadow: 2px 4px 5px rgba(3,3,3,0.2);
-	background: url("../img/bg.jpg");
+	/*background: url("../img/bg.jpg");*/
 	color: #fff;
-	padding: 1em 0 .8em;
-	position: fixed;
-	height: 100%;
-	z-index: -1;
+	/*padding: 1em 0 .8em;*/
+	/*position: fixed;*/
+	/*height: 100%;*/
+	z-index: 1;
+	/*top:0;*/
 }
 
 @media only screen and (min-width:1024px) {
 	body >header {
-		padding: 1.8em 0 1.5em
+		/*padding: 1.8em 0 1.5em*/
 	}
 }
 
 body >header >div {
 	width: 95%;
-	padding: 20px;
-	margin: 0 auto;
+	/*padding: 20px;*/
+	/*margin: 0 auto;*/
 	position: relative;
 	overflow: hidden;
-	background: rgba(255, 255, 255, 0.1);
+	background: rgba(0,0,0,.5);
 }
 
 @media only screen and (min-width:1024px) {
 	body >header >div {
-		width: 93%
+		width: 100%
 	}
 }
 
@@ -378,6 +379,7 @@ body >header a {
 	float: left;
 	width: 4em;
 	height: 4em;
+	display: none;
 }
 
 @media only screen and (min-width:768px) {
@@ -412,6 +414,7 @@ body >header a {
 	float: left;
 	width: 75%;
 	margin-left: .5em;
+	display: none;
 }
 
 #textlogo h1.site-name {
@@ -481,7 +484,7 @@ header nav {
 	float: left;
 	width: 100%;
 	font-size: 112.5%;
-	padding-top: .5em;
+	/*padding-top: .5em;*/
 	max-height: .01em;
 	-webkit-transition: max-height 1s ease-out;
 	-moz-transition: max-height 1s ease-out;
@@ -498,16 +501,16 @@ header nav {
 
 @media only screen and (min-width:1024px) {
 	header nav {
-		float: right;
+		float: left;
 		width: auto;
-		margin-top: 1em;
+		/*margin-top: 1em;*/
 		max-height: none
 	}
 }
 
 @media only screen and (min-width:1024px) {
 	header nav ul {
-		float: right
+		float: left
 	}
 }
 
@@ -528,7 +531,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-	background: #12c3aa;
+	background: rgba(255,255,255,.1);
 	color: #fff;
 }
 
@@ -547,23 +550,16 @@ header nav ul li a:hover {
 	border: 1px solid #dadada;
 	color: #dadada;
 	background: transparent;
-	width: 80%;
+	width: 10em;
 	padding-left: .5em;
-}
-
-@media only screen and (min-width:1024px) {
-	.search input {
-		width: 8em;
-		-webkit-transition: 0.5s width;
-		-moz-transition: 0.5s width;
-		-o-transition: 0.5s width;
-		-ms-transition: 0.5s width;
-		transition: 0.5s width
-	}
-
-	.search input:focus {
-		width: 15em
-	}
+	color: #fff;
+	background: rgba(255,255,255,.2);
+	height: 2rem;
+	line-height: 2rem;
+	border-radius: .3rem;
+	border: 0;
+	box-shadow: none;
+	margin-left: 12em;
 }
 
 .search label {
@@ -571,7 +567,7 @@ header nav ul li a:hover {
 }/* index layout */
 #container {
 	width: 95%;
-	margin: 80px auto 0;
+	margin: 0 auto;
 	overflow: hidden;
 }
 
